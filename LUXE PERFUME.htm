@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUXE PERFUME</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8EEF0;
+    font-family: Tahoma;
+    text-align: center;
+    margin: 0;
+    direction: rtl;
+}
+
+header {
+    background-color: #800020;
+    color: white;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+nav {
+    background-color: #65001A;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-size: 16px;
+}
+
+.welcome {
+    background-color: #E8CCD3;
+    padding: 40px;
+}
+
+.welcome h2 {
+    color: #800020;
+    font-size: 27px;
+}
+
+.welcome p {
+    color: #65001A;
+}
+
+h2 {
+    color: #800020;
+}
+
+.product {
+    background-color: white;
+    display: inline-block;
+    width: 230px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(128,0,32,0.12);
+}
+
+.product img {
+    width: 190px;
+    height: 220px;
+    object-fit: contain;
+}
+
+.product h3 {
+    color: #800020;
+}
+
+.product p {
+    color: #8b5555;
+}
+
+button {
+    background-color: #800020;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: Tahoma;
+}
+
+button:hover {
+    background-color: #A52A4D;
+}
+
+.contact {
+    background-color: #E8CCD3;
+    padding: 25px;
+    margin-top: 25px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #800020;
+    border-radius: 5px;
+    font-family: Tahoma;
+    width: 80%;
+    max-width: 300px;
+}
+
+footer {
+    background-color: #4A001F;
+    color: white;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    nav a {
+        margin: 6px;
+        font-size: 13px;
+    }
+
+    .product {
+        width: 85%;
+        max-width: 280px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>LUXE PERFUME</h1>
+
+<p style="color:white;">
+دنیای عطرهای خاص و ماندگار
+</p>
+
+</header>
+
+<nav>
+<a href="#">خانه</a>
+<a href="#products">محصولات</a>
+<a href="#order">ثبت سفارش</a>
+<a href="#contact">تماس با ما</a>
+</nav>
+
+<div class="welcome">
+
+<h2>به فروشگاه LUXE PERFUME خوش آمدید</h2>
+
+<p>زیبایی را با رایحه ای خاص تجربه کنید</p>
+
+</div>
+
+<h2 id="products">محصولات ویژه ما</h2>
+
+<!-- محصول اول: دیور -->
+
+<div class="product">
+
+<img src="https://statics.basalam.com/public-239/integrations_team/next_channel/d7n4rW/08-23/zDw8IztegHUIfVFJnI7gB6gBXA18XcFZZjqSvQzTgrWWTrGwA3.webp"
+alt="MISS DIOR">
+
+<h3>DIOR J'ADORE</h3>
+
+<p>ادکلن زنانه دیور</p>
+
+<p>رایحه ای خاص و ماندگار</p>
+
+<button>مشاهده محصول</button>
+
+</div>
+
+<!-- محصول دوم: شنل قرمز -->
+
+<div class="product">
+
+<img src="https://kishperfume.com/image/cache/outputfiles/CHANEL/kishperfume-chanel-n5-red-500x500.jpg"
+alt="CHANEL N°5 RED EDITION">
+
+<h3>CHANEL N°5</h3>
+
+<p>ادکلن زنانه شنل</p>
+
+<p>رایحه ای کلاسیک و جذاب</p>
+
+<button>مشاهده محصول</button>
+
+</div>
+
+<!-- ثبت سفارش -->
+
+<div class="contact" id="order">
+
+<h2>ثبت سفارش</h2>
+
+<p>برای سفارش عطر مورد علاقه خود اطلاعات زیر را وارد کنید.</p>
+
+<form>
+
+<label>نام و نام خانوادگی:</label>
+
+<br><br>
+
+<input type="text" placeholder="نام خود را وارد کنید">
+
+<br><br>
+
+<label>نام عطر:</label>
+
+<br><br>
+
+<input type="text" placeholder="نام عطر مورد نظر">
+
+<br><br>
+
+<label>شماره تماس:</label>
+
+<br><br>
+
+<input type="text" placeholder="شماره تماس">
+
+<br><br>
+
+<label>انتخاب شهر:</label>
+
+<br><br>
+
+<select name="city">
+
+<option>تهران</option>
+<option>شیراز</option>
+<option>اصفهان</option>
+<option>مشهد</option>
+<option>تبریز</option>
+<option>کرج</option>
+<option>رشت</option>
+<option>اهواز</option>
+<option>یزد</option>
+<option>قم</option>
+
+</select>
+
+<br><br>
+
+<button type="submit">ثبت سفارش</button>
+
+</form>
+
+</div>
+
+<!-- تماس با ما -->
+
+<div class="contact" id="contact">
+
+<h2>تماس با ما</h2>
+
+<p>
+از بازدید شما از فروشگاه ما سپاسگزاریم.
+</p>
+
+<p>LUXE PERFUME</p>
+
+</div>
+
+<footer>
+
+<p>تمام حقوق متعلق به LUXE PERFUME است.</p>
+
+</footer>
+
+</body>
+</html>
